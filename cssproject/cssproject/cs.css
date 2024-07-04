@@ -1,0 +1,120 @@
+.centered-div{
+    
+    height:450px;
+    width:275px ;
+    border: 2px solid black;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    
+    background-color: black; 
+    opacity: 0.8;
+    border-radius: 7px;
+    margin:0;
+    padding-left:45px;
+    
+    
+}
+.sign{
+    padding-left: 0.2px;
+    color:azure;
+    padding-top: 12px;
+    width:225px;
+    border-radius:5px ;
+}
+.inp{
+    margin-bottom: 12px;
+    color:azure;
+    background-color: black;
+    border-radius: 5px;
+    padding-top: 12px;
+    width:225px;
+}
+.passw{
+    margin-bottom: 25px;
+    color:azure;
+    background-color:rgb(0, 0, 0) ; 
+    border-radius: 5px;
+    padding-top: 12px;
+    width:225px;
+}
+.btn{
+    width:175px;
+    height:25px;
+    color:azure;
+    background-color: red;
+    border-radius: 5px;
+    width:225px;
+    height:35px;
+}
+.btn2{
+    width:175px;
+    height:35px;
+    background-color:rgb(93, 88, 88) ;
+    border-radius: 5px;
+    padding-top: 12px;
+    width:225px;
+}
+.or{
+    color:azure;
+    padding-left:85px;
+}
+.for{
+    color: azure;
+    padding-left: 45px;
+}
+.new{
+    color:azure;
+    padding-top:1px ; 
+    margin-top: 1px;
+}
+.google{
+    color:azure;
+    padding-top: 1px;
+    
+    margin-top: -25px;
+}
+.link{
+    text-decoration: none;
+}
+body{
+    background-image: url("venti-views-lI7dlA5VBp8-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.link{
+    text-decoration: none;
+}
+.centered-div:hover {
+    /* transform: translate(-50%, -50%) scale(1.05); Scale up the div on hover */
+    /* background-color: rgba(0, 0, 0, 0.5); Semi-transparent background on hover */
+    /* transition:transform 1s; */
+    box-shadow: 2px 2px 5px rgb(228, 223, 223);
+}
+.inp:hover{
+    transition:transform 0.5s;
+    box-shadow: 2px 2px 5px rgb(228, 223, 223);
+    
+}
+.passw:hover{
+    transition:transform 0.5s;
+    box-shadow: 2px 2px 5px rgb(228, 223, 223);
+}
+.btn:hover{
+    transition:transform 0.5s;
+    box-shadow: 2px 2px 5px rgb(228, 223, 223);
+}
+.btn2:hover{
+    transition:transform 0.5s;
+    box-shadow: 2px 2px 5px rgb(228, 223, 223);
+
+}
+h6 a{
+    text-decoration: none;
+}
+    
+    
+
+
